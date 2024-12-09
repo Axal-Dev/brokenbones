@@ -48,7 +48,7 @@ end
 -- Boucle infinie avec vérification du temps
 while true do
     for _, stat in ipairs(stats) do
-        updateStat(stat, 1)
+        updateStat(stat, 200)
     end
     
     -- Vérifier si 20 secondes se sont écoulées
